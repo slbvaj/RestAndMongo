@@ -1,0 +1,27 @@
+{
+  "name": "restandmongo",
+  "version": "1.0.0",
+  "description": "Example using Node.js, Express &amp; Mongo building a REST API",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slbvaj/RestAndMongo.git"
+  },
+  "author": "Stephen Brand",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/slbvaj/RestAndMongo/issues"
+  },
+  "homepage": "https://github.com/slbvaj/RestAndMongo#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.8"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.4"
+  }
+}
